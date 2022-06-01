@@ -1,0 +1,25 @@
+A = 110
+B = 262
+
+a = A + B
+b = A - B
+c = float(A / B)
+d = A * B
+e = int(A / B)
+f = A % B
+
+String1 = "Result of {} + {} equal {}".format(A,B,a)
+String2 = "Result of {} - {} equal {}".format(A,B,b)
+String3 = "Result of {} / {} equal {}".format(A,B,c)
+String4 = "Result of {} * {} equal {}".format(A,B,d)
+String5 = "result of {} dividing {} by the integer part equal {}".format(A,B,e)
+String6 = "result of {} dividing {} by the remainder equal {}".format(A,B,f)
+
+print(String1)
+print(String2)
+print(String3)
+print(String4)
+print(String5)
+print(String6)
+
+
