@@ -1,0 +1,17 @@
+string = "Python programming is the best course to learn"
+
+a = len(string)
+b = string[:5]
+c = string[-10:]
+d = string.replace("Python","DUT")
+e = string.find("best")
+f = string.islower()
+g = string.split()
+
+print("The length of string is", a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
