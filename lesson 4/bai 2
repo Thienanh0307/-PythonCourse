@@ -1,0 +1,13 @@
+thislist = ["apple" , "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+list1 = thislist[:2]
+list2 = thislist[-1:]
+list3 = thislist[-2:]
+thislist.remove("apple")
+thislist.remove("mango")
+
+
+print(list1)
+print(list2)
+print(list3)
+print(thislist)
